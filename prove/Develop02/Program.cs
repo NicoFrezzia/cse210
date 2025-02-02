@@ -1,9 +1,15 @@
 using System;
 
+// Enhancements: 
+// 1. Improved file handling by supporting CSV format for better compatibility with Excel.
+// 2. Included an additional field in the journal entry to store mood/emotion.
+// 3. Implemented a reminder system to encourage journaling consistency.
+
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello Develop02 World!");
+        Menu menu = new Menu();
+        menu.DisplayMenu();
     }
 }
