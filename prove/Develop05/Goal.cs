@@ -3,7 +3,7 @@ public abstract class Goal
     protected string name;
     protected int points;
 
-    // Add a public getter for points
+    
     public int Points
     {
         get { return points; }
