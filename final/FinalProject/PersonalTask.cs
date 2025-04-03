@@ -13,7 +13,6 @@ public class PersonalTask : Task
     public override void DisplayTask()
     {
         base.DisplayTask();
-        Console.WriteLine($"Category: {_category}");
-        Console.WriteLine();
+        Console.WriteLine($"Category: {_category}\n");
     }
 }

@@ -13,7 +13,6 @@ public class WorkTask : Task
     public override void DisplayTask()
     {
         base.DisplayTask();
-        Console.WriteLine($"Project: {_workProject}");
-        Console.WriteLine();
+        Console.WriteLine($"Project: {_workProject}\n");
     }
 }

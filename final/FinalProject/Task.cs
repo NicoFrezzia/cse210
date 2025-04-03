@@ -25,6 +25,6 @@ public class Task
         Console.WriteLine($"Title: {_title}");
         Console.WriteLine($"Description: {_description}");
         Console.WriteLine($"Due Date: {_dueDate}");
-        Console.WriteLine($"Completed: {_isComplete}");
+        Console.WriteLine($"Completed: {_isComplete}\n");
     }
 }
